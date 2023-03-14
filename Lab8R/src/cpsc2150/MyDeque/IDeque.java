@@ -2,9 +2,9 @@ package cpsc2150.MyDeque;
 
 /**
  * Name: Zachary Supina, Abigail Poropatich
- * Date Submitted: 2/24/2023
+ * Date Submitted: 03/10/2023
  * Section: 1
- * Assignment Name: Generic Deques (Lab 6)
+ * Assignment Name: JUnit testing (Lab 8)
  */
 
 /**
@@ -12,18 +12,12 @@ package cpsc2150.MyDeque;
  * A deque is a double-ended queue data structure that allows you
  * to insert and remove from both ends.
  * This deque is bounded by MAX_LENGTH
+ **
+ * @initialization_ensures Deque contains no values and the length is 0
+ *
+ * @Constraints 0 <= |myDeque| <= MAX_LENGTH
  */
 public interface IDeque<T> {
-
-    /**
-     * Deque is a double ended array that stores integer or Character values
-     *
-     * @defines |myDeque| = 0
-     *
-     * @initialization_ensures Deque contains no values and the length is 0
-     *
-     * @Constraints 0 <= |myDeque| <= MAX_LENGTH
-     */
     public static final int MAX_LENGTH = 100;
 
     /**

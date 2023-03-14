@@ -3,14 +3,14 @@ import java.util.*;
 
 /**
  * Name: Zachary Supina, Abigail Poropatich
- * Date Submitted: 2/24/2023
+ * Date Submitted: 03/10/2023
  * Section: 1
- * Assignment Name: Generic Deques (Lab 6)
+ * Assignment Name: JUnit testing (Lab 8)
  */
 
 public class DequeApp {
     public static void main(String[] args) {
-        IDeque q;
+        IDeque<Integer> q;
         Scanner read = new Scanner(System.in);
         String input = " ";
         Integer choice = 0;
@@ -52,12 +52,12 @@ you have gotten an answer, use it to initialize q appropriately.
 
         //choice one is correlated with ArrayDeque
         if(choice == 1) {
-            q = new ArrayDeque();
+            q = new ArrayDeque<Integer>();
         }
 
         //choice two is correlated with ListDeque
         else {
-            q = new ListDeque();
+            q = new ListDeque<Integer>();
         }
 
 

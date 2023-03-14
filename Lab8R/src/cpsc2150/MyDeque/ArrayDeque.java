@@ -2,9 +2,9 @@ package cpsc2150.MyDeque;
 
 /**
  * Name: Zachary Supina, Abigail Poropatich
- * Date Submitted: 2/24/2023
+ * Date Submitted: 03/10/2023
  * Section: 1
- * Assignment Name: Generic Deques (Lab 6)
+ * Assignment Name: JUnit testing (Lab 8)
  */
 
 public class ArrayDeque<T> extends AbsDeque<T> implements IDeque<T> {
